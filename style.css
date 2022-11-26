@@ -1,0 +1,192 @@
+body {
+	background: #f1f1f1;
+	color: #0f141e;
+}
+
+.container {
+	max-width: 75%;
+	margin: auto;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:active {
+	color: blue;
+}
+
+a:visited {
+	color: grey;
+}
+
+.info {
+	display: flex;
+	margin: 50px 0 50px;
+	align-items: center;
+}
+
+.social {
+	margin-bottom: 20px;
+}
+
+
+@media (max-device-width: 700px) {
+	.info {
+		display: block;
+	}
+}
+
+.info-img img {
+	border-radius: 28px;
+	box-shadow: 4px 4px 14px rgba(0, 0, 0, 25);
+	margin-right: 20px;
+}
+
+.info-text>h4 {
+	margin: 20px 0 5px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.info-text>p {
+	font-family: 'Roboto', sans-serif;
+	color: #86898f;
+	font-style: italic;
+	font-weight: bold;
+	margin: 0;
+}
+
+.card {
+	padding: 15px 20px;
+	margin-bottom: 20px;
+	border-radius: 20px;
+}
+
+.card h2 {
+	margin-bottom: 10px;
+}
+
+.list {
+	padding: 0 20px;
+}
+
+.list li {
+	color: #86898f;
+	margin-bottom: 10px;
+}
+
+.bg-yellow {
+	background: #fff9dc;
+}
+
+.bg-green {
+	background: #e5ffe7;
+}
+
+.bg-red {
+	background: #ffe5e5;
+}
+
+.card>h2 {
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.table {
+	width: 100%;
+}
+
+.table td {
+	padding-bottom: 10px;
+}
+
+.table td:nth-child(2),
+.table td:nth-child(3) {
+	color: #86898f;
+}
+
+.link-list {
+	list-style: none;
+	padding: 0;
+
+}
+
+.link-list>li {
+	margin-bottom: 10px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #ccc;
+}
+
+.link-list>li>a {
+	text-decoration: none;
+}
+
+.link-list>li>a:hover {
+	color: dodgerblue
+}
+
+.contact h2 {
+	text-align: center;
+	margin: 30px 0 30px;
+}
+
+.form-group {
+	margin-bottom: 15px;
+}
+
+.form-group label {
+	display: block;
+	font-size: 14px;
+	/* margin-bottom: 5px; */
+	color: #86898f;
+}
+
+.form-group input,
+.form-group textarea {
+	width: 100%;
+	box-sizing: border-box;
+	height: 30px;
+	border: none;
+	background: transparent;
+	border-bottom: 1px solid #ccc;
+	outline: none;
+	color: #000;
+	padding: 15px 0 10px;
+	font-family: inherit;
+}
+
+.row {
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.row>.form-group {
+	width: 50%;
+
+}
+
+.row>.form-group:first-child {
+	margin-right: 20px;
+}
+
+.box-size {
+	height: 150px;
+}
+
+.btn {
+	background: #000;
+	padding: 15px 20px;
+	color: #fff;
+	border: none;
+	font-family: inherit;
+}
+
+.btn:hover {
+	cursor: pointer;
+	opacity: 0.9;
+}
